@@ -18,6 +18,7 @@ Django-сервис для импорта рассылок из XLSX-файла 
 
 ## Быстрый старт
 
+git clone https://github.com/boshka22/jetland_testovoe2
 ```bash
 cp .env.example .env
 docker-compose up --build
@@ -28,7 +29,7 @@ docker-compose up --build
 ## Импорт рассылок
 
 ```bash
-docker-compose exec web python manage.py import_mailings /path/to/file.xlsx
+docker-compose exec web python manage.py import_mailings /app/sest.xlsx
 ```
 
 ### Формат XLSX-файла
